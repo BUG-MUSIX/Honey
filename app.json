@@ -1,7 +1,7 @@
 {
-    "name": "ANNIE X MUSIC",
+    "name": "ʙᴜɢ ᴍᴜsɪx",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/2c6d1a6f78eba6199933a.jpg",
+    "logo": "https://te.legra.ph/file/8e4760526d6bb3f034ea3.jpg",
     "keywords": [
         "python3",
         "telegram",
@@ -34,11 +34,11 @@
         },
         "OWNER_ID": {
             "description": "The user ID of the user whom you would like to add as OWNER.",
-            "value": "",
+            "value": "7178437397",
             "required": true
         },
         "STRING_SESSION": {
-            "description": "A Pyrogram v2 String Session from @Strings_Gen_Robot on Telegram.",
+            "description": "A Pyrogram v2 String Session from @BuG_StrinG_BoT on Telegram.",
             "value": "",
             "required": true
         },
