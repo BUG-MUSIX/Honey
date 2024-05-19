@@ -64,6 +64,10 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢ sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
             InlineKeyboardButton(text="ʀᴇᴘʟᴀʏ ↺", callback_data=f"ADMIN Replay|{chat_id}"),
         ],
+         [
+         InlineKeyboardButton(text="ᴅᴇᴠ 💕", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="💌 ɢʀᴏᴜᴘ", url=f"{SUPPORT_CHAT}",),
+        ],
         [
             InlineKeyboardButton(text="๏ ᴍᴏʀᴇ ๏", callback_data=f"PanelMarkup None|{chat_id}",),
         ],
@@ -110,6 +114,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢ sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
             InlineKeyboardButton(text="ʀᴇᴘʟᴀʏ ↺", callback_data=f"ADMIN Replay|{chat_id}"),
         ],
+         [
+         InlineKeyboardButton(text="ᴅᴇᴠ 💕", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="💌 ɢʀᴏᴜᴘ", url=f"{SUPPORT_CHAT}",),
+        ],
         [
             InlineKeyboardButton(text="๏ ᴍᴏʀᴇ ๏", callback_data=f"PanelMarkup None|{chat_id}",),
         ],
@@ -130,6 +138,10 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢ sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
             InlineKeyboardButton(text="ʀᴇᴘʟᴀʏ ↺", callback_data=f"ADMIN Replay|{chat_id}"),
         ],
+         [
+         InlineKeyboardButton(text="ᴅᴇᴠ 💕", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="💌 ɢʀᴏᴜᴘ", url=f"{SUPPORT_CHAT}",),
+        ],
         [
             InlineKeyboardButton(text="๏ ᴍᴏʀᴇ ๏", callback_data=f"PanelMarkup None|{chat_id}",),
         ],
@@ -143,6 +155,10 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(text=_["P_B_1"], callback_data=f"JARVISPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}"),
             InlineKeyboardButton(text=_["P_B_2"], callback_data=f"JARVISPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}"),
+        ],
+         [
+         InlineKeyboardButton(text="ᴅᴇᴠ 💕", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="💌 ɢʀᴏᴜᴘ", url=f"{SUPPORT_CHAT}",),
         ],
         [
             InlineKeyboardButton(text=_["✧ᴄʟᴏsᴇ✧"], callback_data=f"forceclose {videoid}|{user_id}"),
@@ -206,6 +222,10 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▷ ʀᴇsᴜᴍᴇ", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="ʀᴇᴘʟᴀʏ ↺", callback_data=f"ADMIN Replay|{chat_id}"),
         ],
+         [
+         InlineKeyboardButton(text="ᴅᴇᴠ 💕", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="💌 ɢʀᴏᴜᴘ", url=f"{SUPPORT_CHAT}",),
+        ],
         [
             InlineKeyboardButton(text="๏ ᴍᴏʀᴇ ๏", callback_data=f"PanelMarkup None|{chat_id}"),
         ],
@@ -249,6 +269,10 @@ def panel_markup_2(_, videoid, chat_id):
                 InlineKeyboardButton(text="🕤 1.5x", callback_data=f"SpeedUP {chat_id}|1.5",),
                 InlineKeyboardButton(text="🕛 2.0x", callback_data=f"SpeedUP {chat_id}|2.0",),
             ],
+         [
+         InlineKeyboardButton(text="ᴅᴇᴠ 💕", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="💌 ɢʀᴏᴜᴘ", url=f"{SUPPORT_CHAT}",),
+        ],
         [
             InlineKeyboardButton(text="๏ ʙᴀᴄᴋ ๏", callback_data=f"Pages Back|1|{videoid}|{chat_id}",),
         ],
@@ -267,6 +291,10 @@ def panel_markup_3(_, videoid, chat_id):
                 InlineKeyboardButton(text="🕤 1.5x", callback_data=f"SpeedUP {chat_id}|1.5",),
                 InlineKeyboardButton(text="🕛 2.0x", callback_data=f"SpeedUP {chat_id}|2.0",),
             ],
+         [
+         InlineKeyboardButton(text="ᴅᴇᴠ 💕", user_id=config.OWNER_ID),
+         InlineKeyboardButton(text="💌 ɢʀᴏᴜᴘ", url=f"{SUPPORT_CHAT}",),
+        ],
         [
             InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data=f"Pages Back|2|{videoid}|{chat_id}",),
         ],
