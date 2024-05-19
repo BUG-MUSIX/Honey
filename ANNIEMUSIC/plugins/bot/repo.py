@@ -4,7 +4,7 @@ from ANNIEMUSIC import app
 from config import BOT_USERNAME
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя jคяv¡ร яєρσѕ ✪
+✪ ωεℓ¢σмє ƒσя ʙᴜɢ яєρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -27,17 +27,17 @@ async def start(_, msg):
     buttons = [
      
             [ 
-            InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʙᴀʙᴇs✪", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton("ᴋɪᴅɴᴀᴘ ᴍᴇ ʙᴇʙʏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
      
             [
-             InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/JARVIS_V2"),
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/JARVIS_V_SUPPORT"),
+             InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/NoT_uR_SoHeL"),
+             InlineKeyboardButton("❄ ᴄʜᴀɴɴᴇʟ ❄", url="https://t.me/xD_Feelings"),
              ],
      
              [
-             InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/Dora_Hub"),          
-             InlineKeyboardButton("︎ᴍᴜsɪᴄ", url=f"https://github.com/doraemon890/ANNIE-X-MUSIC"),
+             InlineKeyboardButton("❄ 𝐃ᴘs 𝐒ᴛᴏʀᴇ ❄", url="https://t.me/Unconditional_Dps"),          
+             InlineKeyboardButton("︎☁️ sᴏᴜʀᴄᴇ ☁️", url=f"https://t.me/Flames_xD"),
              ],
      
               ]
@@ -45,7 +45,7 @@ async def start(_, msg):
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg",
+        photo="https://graph.org/file/7dbad520debdbc51478c5.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
